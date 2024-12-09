@@ -35,6 +35,68 @@ The time it takes to perform a certain task/action
 
 The number of tasks/actions per unit of time
 
+
+### DNS (Domain Name System)
+
+Definition:
+DNS translates human-readable domain names (e.g., www.example.com) into IP addresses (e.g., 192.0.2.1). This system enables users to access resources on the internet using easy-to-remember names rather than numerical IP addresses.
+
+From a System Design Perspective:
+
+DNS helps in load balancing by directing traffic to multiple servers.
+
+DNS caching can reduce latency but may also lead to stale records.
+
+Strategies like TTL (Time-To-Live) optimization are crucial for DNS performance.
+
+
+
+### Load Balancing
+
+Definition:
+Load balancing is the process of distributing network traffic across multiple servers to ensure availability, scalability, and fault tolerance.
+
+Key Considerations in System Design:
+
+Types: Hardware load balancers, software load balancers (e.g., Nginx, HAProxy), and cloud-based solutions (e.g., AWS ELB).
+
+Algorithms: Round Robin, Least Connections, IP Hashing, etc.
+
+Load balancers often use public IPs for external communication and private IPs for internal communication.
+
+
+
+### NAT (Network Address Translation)
+
+Definition:
+NAT allows multiple devices on a private network to share a single public IP address for internet access. It modifies the source IP of outgoing packets and the destination IP of incoming packets.
+
+Use Cases in System Design:
+
+Conserves public IP addresses.
+
+Provides a layer of security by hiding internal network details from external users.
+
+Facilitates communication between private and public networks.
+
+
+
+### CDN (Content Delivery Network)
+
+Definition:
+A CDN is a network of distributed servers that deliver web content and other data to users based on their geographic location.
+
+System Design Benefits:
+
+Reduces latency by serving content from the nearest server.
+
+Decreases load on the origin server.
+
+Improves fault tolerance and scalability.
+
+
+---
+
 ## Questions
 
 <details>
