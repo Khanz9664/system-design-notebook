@@ -6,6 +6,10 @@
     - [Private IP](#private-ip)
     - [Latency](#latency)
     - [Throughput](#throughput)
+    - [DNS_(Domain_Name_System)](#DNS_(Domain_Name_System))
+    - [Load_Balancing](#Load_Balancing)
+    - [NAT_(Network_Address_Translation)](#NAT_(Network_Address_Translation))
+    - [CDN_(Content_Delivery_Network](#CDN_(Content_Delivery_Network))
   - [Questions](#questions)
 
 ## What is Networking?
